@@ -49,7 +49,7 @@ const ForgotPassword: React.FC = () => {
           type: 'success',
           title: 'E-mail de recuperação enviado',
           description:
-            'Enviamos um e-mail para confirmar a recuperação de senha, cheque a sua caixa de entrada',
+            'Enviamos um e-mail para confirmar a recuperação de senha, cheque a sua caixa de entrada.',
         });
       } catch (err) {
         if (err instanceof Yup.ValidationError) {
